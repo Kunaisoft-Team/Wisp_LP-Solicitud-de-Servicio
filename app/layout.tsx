@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'Wisp Tachira | Solicitud de Servicio',
+  description: 'Internet Rápido y Confiable para Táchira',
 }
 
 export default function RootLayout({
