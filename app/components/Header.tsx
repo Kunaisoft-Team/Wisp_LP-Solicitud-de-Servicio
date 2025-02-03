@@ -21,6 +21,11 @@ export default function Header() {
               </Link>
             </li>
             <li>
+              <Link href="#payments" className="text-gray-600 hover:text-primary-500 transition-colors">
+                Pagos
+              </Link>
+            </li>
+            <li>
               <Link href="#faq" className="text-gray-600 hover:text-primary-500 transition-colors">
                 Preguntas Frecuentes
               </Link>
@@ -32,8 +37,12 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-        <Button asChild>
-          <Link href="#contact">Empezar</Link>
+        <Button
+          variant="secondary"
+          asChild
+          className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full shadow-lg transition duration-300 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+        >
+          <Link href="#contact">¡SOLICITAR Wisp!</Link>
         </Button>
       </div>
     </header>

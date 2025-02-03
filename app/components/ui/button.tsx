@@ -10,7 +10,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     const baseStyles = "font-bold rounded-lg transition-colors duration-200 ease-in-out"
     const variantStyles = {
       primary: "bg-blue-600 text-white hover:bg-blue-700",
-      secondary: "bg-white text-blue-600 hover:bg-gray-100 border border-blue-600",
+      secondary: "bg-orange-500 text-blue-600 hover:bg-gray-100 border border-blue-600",
     }
     const sizeStyles = {
       default: "px-4 py-2 text-sm",

@@ -1,17 +1,16 @@
 import Image from "next/image"
 
 const paymentMethods = [
-  { name: "Visa", logo: "/visa.svg" },
-  { name: "Mastercard", logo: "/mastercard.svg" },
-  { name: "PayPal", logo: "/paypal.svg" },
-  { name: "Bank Transfer", logo: "/bank-transfer.svg" },
+  { name: "Banesco", logo: "/pago-banesco.jpeg" },
+  { name: "Bancolombia", logo: "/pago-bancolombia.png" },
+  { name: "Efectivo", logo: "/pago-efectivo.png" },
 ]
 
 export default function PaymentMethods() {
   return (
-    <section className="py-20 bg-gray-100">
+    <section id="payments" className="py-20 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12">Convenient Payment Methods</h2>
+        <h2 className="text-3xl font-bold text-center mb-12">Formas de Pago</h2>
         <div className="flex justify-center items-center space-x-8">
           {paymentMethods.map((method) => (
             <div key={method.name} className="flex flex-col items-center">

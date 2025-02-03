@@ -9,7 +9,7 @@ const testimonials = [
     avatar: "/avatar1.jpg",
   },
   {
-    name: "Carlos Méndez",
+    name: "Jenny Ramirez",
     comment:
       "Nunca había tenido un internet tan confiable. Los técnicos de Wisp siempre responden rápidamente y resuelven cualquier problema.",
     avatar: "/avatar2.jpg",
